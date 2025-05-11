@@ -9,18 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aloe.Utils.Wafu.Date.Tests"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Release|x64 = Release|x64
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Debug|x64.ActiveCfg = Debug|x64
-		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Debug|x64.Build.0 = Debug|x64
-		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Release|x64.ActiveCfg = Release|x64
-		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Release|x64.Build.0 = Release|x64
-		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Debug|x64.ActiveCfg = Debug|x64
-		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Debug|x64.Build.0 = Debug|x64
-		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Release|x64.ActiveCfg = Release|x64
-		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Release|x64.Build.0 = Release|x64
+		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F4556E-A77E-FB6A-7FE9-0A53F0DBCDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA43734-122E-FBD1-EB57-24EF2C89E9A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
