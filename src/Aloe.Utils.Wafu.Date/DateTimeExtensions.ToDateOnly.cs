@@ -1,4 +1,4 @@
-﻿// <copyright file="DateTimeExtensions.cs" company="ted-sharp">
+﻿// <copyright file="DateTimeExtensions.ToDateOnly.cs" company="ted-sharp">
 // Copyright (c) ted-sharp. All rights reserved.
 // </copyright>
 
@@ -15,18 +15,12 @@ public static class DateTimeExtensions
     /// </summary>
     /// <param name="dateTime">変換するDateTime値</param>
     /// <returns>変換されたDateOnly値</returns>
-    public static DateOnly ToDateOnly(this DateTime dateTime)
-    {
-        return DateOnly.FromDateTime(dateTime);
-    }
+    public static DateOnly ToDateOnly(this DateTime dateTime) => DateOnly.FromDateTime(dateTime);
 
     /// <summary>
     /// NullableなDateTime型をNullableなDateOnly型に変換します
     /// </summary>
     /// <param name="dateTime">変換するNullableなDateTime値</param>
     /// <returns>変換されたNullableなDateOnly値。入力がnullの場合はnullを返します</returns>
-    public static DateOnly? ToDateOnly(this DateTime? dateTime)
-    {
-        return dateTime.HasValue ? DateOnly.FromDateTime(dateTime.Value) : null;
-    }
+    public static DateOnly? ToDateOnly(this DateTime? dateTime) => dateTime?.ToDateOnly();
 }
