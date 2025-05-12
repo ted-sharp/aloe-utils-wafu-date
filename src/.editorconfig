@@ -92,9 +92,12 @@ dotnet_diagnostic.SA1131.severity = none
 # SA1200: SA1200UsingDirectivesMustBePlacedCorrectly
 dotnet_diagnostic.SA1200.severity = none
 
-# private static readonly は s_ のプレフィックスを使うため無効化する
+# private static readonly は s_ のプレフィックスを
+# private は _ のプレフィックスを使うため無効化する
 # SA1308: SA1308VariableNamesMustNotBePrefixed
 dotnet_diagnostic.SA1308.severity = none
+# SA1309FieldNamesMustNotBeginWithUnderscore
+dotnet_diagnostic.SA1309.severity = none
 # SA1311: SA1311StaticReadonlyFieldsMustBeginWithUpperCaseLetter
 dotnet_diagnostic.SA1311.severity = none
 
